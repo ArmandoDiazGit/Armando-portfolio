@@ -47,7 +47,7 @@ function App() {
                   width: "50px",
                   height: "50px",
                   borderRadius: "50%",
-                  cursor: "pointer"
+                  cursor: "pointer",
                 }}
                 onClick={test}
               />
@@ -257,6 +257,44 @@ function App() {
                         onClick={() =>
                           window.open(
                             "https://github.com/ArmandoDiazGit/react-pizza-app",
+                            "_blank"
+                          )
+                        }
+                      >
+                        View on GitHub
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="basis-128">
+                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
+                    <div className="grid">
+                      <img
+                        src={reactsvg}
+                        width={100}
+                        height={100}
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
+
+                    <h3 className="text-lg font-medium pt-8 pb-2 ">
+                      Movie Database App
+                    </h3>
+                    <p className="py-2 text-center">
+                      Movie Database App is a simple web application that allows
+                      users to search, browse, and explore information about
+                      movies. Users can view movie details such as title,
+                      release date, genre, and ratings, all fetched dynamically
+                      from a public movie API. It's a clean, responsive app
+                      designed to showcase front end development skills.
+                    </p>
+                    <div className="flex justify-center gap-4 py-4">
+                      <button
+                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                        onClick={() =>
+                          window.open(
+                            "https://github.com/ArmandoDiazGit/react-movie-app",
                             "_blank"
                           )
                         }
