@@ -304,6 +304,42 @@ function App() {
                     </div>
                   </div>
                 </div>
+
+                <div className="basis-128">
+                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
+                    <div className="grid">
+                      <img
+                        src={angularsvg}
+                        width={100}
+                        height={100}
+                        className="rounded-lg object-cover"
+                      />
+                    </div>
+
+                    <h3 className="text-lg font-medium pt-8 pb-2 ">
+                      Weather App
+                    </h3>
+                    <p className="py-2 text-center">
+                      Modern weather app in Angular combining Bootstrap’s grid
+                      with Angular Material components. Delivers current
+                      weather, extended forecasts, and saved locations via a
+                      lightweight API integration.
+                    </p>
+                    <div className="flex justify-center gap-4 py-4">
+                      <button
+                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                        onClick={() =>
+                          window.open(
+                            "https://github.com/ArmandoDiazGit/weather-app",
+                            "_blank"
+                          )
+                        }
+                      >
+                        View on GitHub
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
