@@ -194,150 +194,142 @@ function App() {
               </h3>
               <div className="border-b-4 border-indigo-500"></div>
             </div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="flex flex-row gap-10">
-                <div className="basis-128">
-                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
-                    <div className="grid">
-                      <img
-                        src={angularsvg}
-                        width={100}
-                        height={100}
-                        className="rounded-lg object-cover"
-                      />
-                    </div>
+            <div>
+              <div className="lg:flex gap-10">
+                <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl p-3 my-10">
+                  <div className="grid">
+                    <img
+                      src={angularsvg}
+                      width={100}
+                      height={100}
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
 
-                    <h3 className="text-lg font-medium pt-8 pb-2 ">
-                      Appointment App
-                    </h3>
-                    <p className="py-2 text-center">
-                      A lightweight web application demonstrating basic CRUD
-                      operations, developed with Angular for efficient
-                      appointment scheduling and management.
-                    </p>
-                    <div className="flex justify-center gap-4 py-4">
-                      <button
-                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
-                        onClick={() =>
-                          window.open(
-                            "https://github.com/ArmandoDiazGit/angular-appointment-app",
-                            "_blank"
-                          )
-                        }
-                      >
-                        View on GitHub
-                      </button>
-                    </div>
+                  <h3 className="text-lg font-medium pt-8 pb-2 ">
+                    Appointment App
+                  </h3>
+                  <p className="py-2 text-center">
+                    A lightweight web application demonstrating basic CRUD
+                    operations, developed with Angular for efficient appointment
+                    scheduling and management.
+                  </p>
+                  <div className="flex justify-center gap-4 py-4">
+                    <button
+                      className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/ArmandoDiazGit/angular-appointment-app",
+                          "_blank"
+                        )
+                      }
+                    >
+                      View on GitHub
+                    </button>
                   </div>
                 </div>
 
-                <div className="basis-128">
-                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
-                    <div className="grid">
-                      <img
-                        src={reactsvg}
-                        width={100}
-                        height={100}
-                        className="rounded-lg object-cover"
-                      />
-                    </div>
+                <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl p-3 my-10">
+                  <div className="grid">
+                    <img
+                      src={reactsvg}
+                      width={100}
+                      height={100}
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
 
-                    <h3 className="text-lg font-medium pt-8 pb-2 ">
-                      React Pizza App
-                    </h3>
-                    <p className="py-2 text-center">
-                      A fun and responsive pizza ordering website built with
-                      React to showcase my latest front end skills. It features
-                      a dynamic menu, cart functionality, and a clean, user
-                      friendly interface.
-                    </p>
-                    <div className="flex justify-center gap-4 py-4">
-                      <button
-                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
-                        onClick={() =>
-                          window.open(
-                            "https://github.com/ArmandoDiazGit/react-pizza-app",
-                            "_blank"
-                          )
-                        }
-                      >
-                        View on GitHub
-                      </button>
-                    </div>
+                  <h3 className="text-lg font-medium pt-8 pb-2 ">
+                    React Pizza App
+                  </h3>
+                  <p className="py-2 text-center">
+                    A fun and responsive pizza ordering website built with React
+                    to showcase my latest front end skills. It features a
+                    dynamic menu, cart functionality, and a clean, user friendly
+                    interface.
+                  </p>
+                  <div className="flex justify-center gap-4 py-4">
+                    <button
+                      className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/ArmandoDiazGit/react-pizza-app",
+                          "_blank"
+                        )
+                      }
+                    >
+                      View on GitHub
+                    </button>
                   </div>
                 </div>
 
-                <div className="basis-128">
-                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
-                    <div className="grid">
-                      <img
-                        src={reactsvg}
-                        width={100}
-                        height={100}
-                        className="rounded-lg object-cover"
-                      />
-                    </div>
+                <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl p-3 my-10">
+                  <div className="grid">
+                    <img
+                      src={reactsvg}
+                      width={100}
+                      height={100}
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
 
-                    <h3 className="text-lg font-medium pt-8 pb-2 ">
-                      Movie Database App
-                    </h3>
-                    <p className="py-2 text-center">
-                      Movie Database App is a simple web application that allows
-                      users to search, browse, and explore information about
-                      movies. Users can view movie details such as title,
-                      release date, genre, and ratings, all fetched dynamically
-                      from a public movie API. It's a clean, responsive app
-                      designed to showcase front end development skills.
-                    </p>
-                    <div className="flex justify-center gap-4 py-4">
-                      <button
-                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
-                        onClick={() =>
-                          window.open(
-                            "https://github.com/ArmandoDiazGit/react-movie-app",
-                            "_blank"
-                          )
-                        }
-                      >
-                        View on GitHub
-                      </button>
-                    </div>
+                  <h3 className="text-lg font-medium pt-8 pb-2 ">
+                    Movie Database App
+                  </h3>
+                  <p className="py-2 text-center">
+                    Movie Database App is a simple web application that allows
+                    users to search, browse, and explore information about
+                    movies. Users can view movie details such as title, release
+                    date, genre, and ratings, all fetched dynamically from a
+                    public movie API. It's a clean, responsive app designed to
+                    showcase front end development skills.
+                  </p>
+                  <div className="flex justify-center gap-4 py-4">
+                    <button
+                      className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/ArmandoDiazGit/react-movie-app",
+                          "_blank"
+                        )
+                      }
+                    >
+                      View on GitHub
+                    </button>
                   </div>
                 </div>
 
-                <div className="basis-128">
-                  <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl">
-                    <div className="grid">
-                      <img
-                        src={angularsvg}
-                        width={100}
-                        height={100}
-                        className="rounded-lg object-cover"
-                      />
-                    </div>
+                <div className="flex-1 hover:scale-105 transition-transform duration-300 shadow-lg justify-items-center dark:bg-white rounded-xl p-3 my-10">
+                  <div className="grid">
+                    <img
+                      src={angularsvg}
+                      width={100}
+                      height={100}
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
 
-                    <h3 className="text-lg font-medium pt-8 pb-2 ">
-                      Weather App
-                    </h3>
-                    <p className="py-2 text-center">
-                      Modern weather app in Angular combining Bootstrap’s grid
-                      with Angular Material components. Delivers current
-                      weather, extended forecasts, and saved locations via a
-                      lightweight API integration.
-                    </p>
-                    <div className="flex justify-center gap-4 py-4">
-                      <button
-                        className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
-                        onClick={() =>
-                          window.open(
-                            "https://github.com/ArmandoDiazGit/weather-app",
-                            "_blank"
-                          )
-                        }
-                      >
-                        View on GitHub
-                      </button>
-                    </div>
+                  <h3 className="text-lg font-medium pt-8 pb-2 ">
+                    Weather App
+                  </h3>
+                  <p className="py-2 text-center">
+                    Modern weather app in Angular combining Bootstrap’s grid
+                    with Angular Material components. Delivers current weather,
+                    extended forecasts, and saved locations via a lightweight
+                    API integration.
+                  </p>
+                  <div className="flex justify-center gap-4 py-4">
+                    <button
+                      className="bg-gradient-to-r from-blue-950 to-blue-500 text-white px-4 py-2 border-none rounded-md cursor-pointer"
+                      onClick={() =>
+                        window.open(
+                          "https://github.com/ArmandoDiazGit/weather-app",
+                          "_blank"
+                        )
+                      }
+                    >
+                      View on GitHub
+                    </button>
                   </div>
                 </div>
               </div>
