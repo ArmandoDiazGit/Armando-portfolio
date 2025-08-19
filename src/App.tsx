@@ -29,7 +29,7 @@ function App() {
 
   function openResume() {
     const resumeUrl =
-      "https://drive.google.com/file/d/1eB905FerCw3vgwGWQKd5TFhLoVkuf2Ak/view?usp=drive_link";
+      "https://drive.google.com/file/d/1P6nQ8yiQ6ub67Uz5tj553ly189jXfoTw/view?usp=drive_link";
     window.open(resumeUrl, "_blank");
   }
 
@@ -81,10 +81,23 @@ function App() {
               </h3>
 
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-                I'm a passionate front end developer focused on creating clean
-                and responsive web interfaces.<br></br>I learned Angular through
-                my internship and am currently diving into React to expand my
-                front end skills.
+                Hi, I’m Armando Diaz — a Front-End Software Engineer with 3+
+                years of experience specializing in Angular. I enjoy building
+                scalable, responsive, and user-friendly web applications that
+                solve real problems and create smooth digital experiences. My
+                main expertise is in Angular, TypeScript, and Angular Material,
+                but I also work with modern web technologies like RxJS, NgRx,
+                REST APIs, HTML5, and CSS3. Over the years, I’ve developed
+                everything from enterprise dashboards to interactive tools,
+                always focusing on clean code and great design. Beyond coding,
+                I’m passionate about UI/UX, making sure the products I build
+                aren’t just functional but also intuitive and enjoyable to use.
+                <br />
+                I believe that great front-end engineering is about combining
+                logic with design — turning complex requirements into simple,
+                elegant solutions. When I’m not coding, I’m usually learning new
+                frameworks, exploring modern front-end practices, or
+                experimenting with side projects that push my skills further.
               </p>
 
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
