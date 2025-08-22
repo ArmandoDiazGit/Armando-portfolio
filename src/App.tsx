@@ -27,10 +27,14 @@ function App() {
     setDarkMode((prevMode) => !prevMode);
   }
 
-  function openResume() {
-    const resumeUrl =
-      "https://drive.google.com/file/d/1P6nQ8yiQ6ub67Uz5tj553ly189jXfoTw/view?usp=drive_link";
-    window.open(resumeUrl, "_blank");
+  function contactMe() {
+    const email = "amandomcmlxxxix@gmail.com";
+    const subject = "Hello from your website";
+    const body = "Hi, I wanted to reach out because...";
+
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
   }
 
   return (
@@ -63,9 +67,9 @@ function App() {
                 <li>
                   <a
                     className="bg-gradient-to-r from-gray-700 text- to-blue-950 text-white px-4 py-2 border-none rounded-md ml-8 cursor-pointer"
-                    onClick={openResume}
+                    onClick={contactMe}
                   >
-                    Resume
+                    Contact me
                   </a>
                 </li>
               </ul>
@@ -92,12 +96,11 @@ function App() {
                 always focusing on clean code and great design. Beyond coding,
                 I’m passionate about UI/UX, making sure the products I build
                 aren’t just functional but also intuitive and enjoyable to use.
-                <br />
-                I believe that great front-end engineering is about combining
-                logic with design — turning complex requirements into simple,
-                elegant solutions. When I’m not coding, I’m usually learning new
-                frameworks, exploring modern front-end practices, or
-                experimenting with side projects that push my skills further.
+                <br />I believe that great front-end engineering is about
+                combining logic with design — turning complex requirements into
+                simple, elegant solutions. When I’m not coding, I’m usually
+                learning new frameworks, exploring modern front-end practices,
+                or experimenting with side projects that push my skills further.
               </p>
 
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
